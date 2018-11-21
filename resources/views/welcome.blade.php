@@ -90,6 +90,12 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+				<form action="handler.php">
+				<p>Форма</p>
+				<p>Email: <input type="email" name="login"></p>
+				<p>Пароль: <input type="text" name="name"></p>
+				<p><input type="submit" value="вход"></p>
+			</form>
             </div>
         </div>
     </body>

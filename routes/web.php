@@ -17,4 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/','send_data');
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/','SiteController@index');
